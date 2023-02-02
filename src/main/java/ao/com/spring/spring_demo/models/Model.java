@@ -1,17 +1,10 @@
 package ao.com.spring.spring_demo.models;
 
-import javax.annotation.Generated;
 
-@Entity
-@Table(name = "pessoas")
+
 
 public class Model {
-
-    /**
-     *
-     */
-    @Id
-    @GeneratedValue(stategy = Generated.IDENTITY)
+   
     private int id;
     private String nome;
     private int idade;
